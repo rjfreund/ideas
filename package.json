@@ -1,0 +1,27 @@
+{
+  "name": "ideas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchify": "watchify main.js -o client.js",
+    "live-server": "live-server",
+    "start": "npm-run-all --parallel watchify live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjfreund/ideas.git"
+  },
+  "author": "R.J. Freund",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjfreund/ideas/issues"
+  },
+  "homepage": "https://github.com/rjfreund/ideas#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "watchify": "^3.11.1"
+  }
+}
